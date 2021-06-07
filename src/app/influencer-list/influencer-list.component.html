@@ -1,0 +1,22 @@
+<h2> Influencer List </h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th> First Name </th>
+            <th> Last Name </th>
+            <th> Email id </th>
+            <th> Phone Number </th>
+            <th> Date </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let Influencer of influencers">
+            <td> {{ Influencer.firstName }} </td>
+            <td> {{ Influencer.lastName }} </td>
+            <td> {{ Influencer.emailId }} </td>
+            <td> {{Influencer.phoneNumber}} </td>
+            <td> {{Influencer.date}} </td>
+
+        </tr>
+    </tbody>
+</table> 
